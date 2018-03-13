@@ -1,14 +1,13 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+title:          Shutter Clicks
+description:    "Snapshots of my interests"
+url:            "https://www.lycarter.com"
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Landon Carter
+  url:          https://www.lycarter.com
+  email:        me@lycarter.com
 
 # Build settings
 markdown:       kramdown
