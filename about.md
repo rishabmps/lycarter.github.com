@@ -1,15 +1,24 @@
 ---
 layout: post
 title: "About"
-author: "Chester"
+author: "Landon"
 permalink: /about/
 ---
 
-A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn't have to buy a domain and a server.
+## Hello!
 
-While doing some research up on GitHub Pages, I accidentally chanced upon this _simple, blog-aware, static site generator_ called [Jekyll](https://jekyllrb.com/) which works really well with GitHub Pages. I figured it would do just fine for my friend and I set about searching for a pretty theme. I wanted a theme with a _book-ish_ vibe. Unfortunately, most of the themes were too modern. Eventually, I caved and begun working on my own theme. With the help of [Poole](https://github.com/poole/poole), the Jekyll Butler, I was able to build **Tale**.
+A lot of my friends have blogs, why not me too? I explain a bit more on my [Hello World]({{ site.baseurl }}{% post_url 2018-03-07-hello-world %}) post, so probably read that first.
 
-## Contribute
-Feel free to create an issue or make a pull request on [GitHub](https://github.com/chesterhow/tale).
+This blog may contain content on photography, machining, coding, baking, cooking, MIT, or anything else I decide is interesting. Feel free to follow along :)
 
-Thanks for reading!
+### Some technical stuff/"colophon"
+
+I really like the Colophon section in [Technique](technique.mit.edu), which lists a bunch of historical/technical things. I'm probably the only one that actually reads it, but that's fine. (Disclaimer: I don't guarantee to keep this up to date).
+
+Shutter Clicks is my personal site/blog. I use my block-style watermark as the favicon, which I created in (probably?) 2015, and usually watermark photos with in the bottom-left corner.
+
+Shutter Clicks is a static [Jekyll](https://jekyllrb.com/) site hosted on [Github Pages](https://pages.github.com/).
+
+Headings are typeset in [Roboto](https://fonts.google.com/specimen/Roboto), and body text is typeset in [Libre Baskerville](https://fonts.google.com/specimen/Libre+Baskerville). The footer and other secondary serif text is typeset in [Palantino](https://www.linotype.com/57056/palatino-linotype-family.html), and monospace text is typeset in [Menlo](https://en.wikipedia.org/wiki/Menlo_(typeface)).
+
+Most of these were the default values included with [Tale](https://github.com/chesterhow/tale/), the Jekyll theme I have adapted for Shutter Clicks.
