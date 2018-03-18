@@ -9,15 +9,9 @@ def resizeImage(infile, suffix="_thumb", output_dir="", size=(1024,768)):
 
     if infile != outfile:
         try :
-            print(infile)
-            print(outfile)
-            print("opening")
             im = Image.open(infile)
-            print("opened")
             im.thumbnail(size, Image.ANTIALIAS)
-            print("resized")
             im.save(outfile,"JPEG")
-            print("saved")
         except IOError:
             print("cannot reduce image for %s" % infile)
 
