@@ -10,7 +10,7 @@ author:
   email:        me@lycarter.com
 
 # Build settings
-markdown:       kramdown
+markdown:       redcarpet
 
 # Assets
 sass:

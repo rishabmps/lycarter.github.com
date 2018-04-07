@@ -4,13 +4,6 @@ layout: default
 
 <div class="post">
   <div class="post-info">
-<!--     <span>Written by</span>
-    {% if page.author %}
-        {{ page.author }}
-    {% else %}
-        {{ site.author.name }}
-    {% endif %} -->
-
     {% if page.date %}
       <time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
     {% endif %}
@@ -33,3 +26,8 @@ layout: default
 
   <a href="#" class="top">Top</a>
 </div>
+
+{% if page.math %}
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+{% endif %}
