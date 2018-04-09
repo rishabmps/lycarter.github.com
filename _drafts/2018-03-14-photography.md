@@ -22,7 +22,7 @@ This one is pretty straightforward - I enjoy taking photos. I enjoy taking photo
 
 I classify artists and photographers into different buckets - artists are people that intend to create something, and may use photography as a process towards that goal. Photographers see things and take photos of them - they're more opportunistic. This doesn't mean there's no crossover or in-between (there certainly is), but I place myself further on the "photographer" side of the spectrum than "artist". I usually take pictures of things because they're nice looking, or I want to remember them, or it just caught my eye. Sometimes, I go out with the intention of creating something specific, but instances of that are relatively rare. The best example would be my photo of [Kedi](https://www.facebook.com/photo.php?fbid=1404442466234459&set=a.1404442366234469.1073741939.100000061561346&type=3&theater) from [MIT in Flight](https://arts.mit.edu/start/wiesner-student-art-gallery/past-exhibitions/) (I should probably put up a virtual version of the gallery at some point...)
 
-![TODO]({{ "/assets/img/thumbnail/645Z0657_thumb_800.jpg" | absolute_url }} "alt text")_Kedi, from MIT In Flight_
+![TODO]({{ "/assets/img/thumbnail/2018-03-14-photography-1_thumb_800.jpg" | absolute_url }} "alt text")_Kedi, from MIT In Flight_
 
 ## I like cameras.
 

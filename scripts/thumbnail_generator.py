@@ -24,7 +24,8 @@ if __name__=="__main__":
         os.mkdir(os.path.join(img_dir,output_dir))
 
     for file in os.listdir(img_dir):
-        infile = os.path.join(img_dir,file)
-        outdir = os.path.join(img_dir,output_dir_name)
-        resizeImage(infile, "_thumb_200", outdir, (200,200))
-        resizeImage(infile, "_thumb_800", outdir, (800,800))
+        if os.path.isfile(file):
+            infile = os.path.join(img_dir,file)
+            outdir = os.path.join(img_dir,output_dir_name)
+            resizeImage(infile, "_thumb_200", outdir, (200,200))
+            resizeImage(infile, "_thumb_800", outdir, (800,800))
