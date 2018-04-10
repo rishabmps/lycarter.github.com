@@ -21,7 +21,8 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-feed
+  - jekyll-sitemap
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
-paginate:       5
+paginate:       10
