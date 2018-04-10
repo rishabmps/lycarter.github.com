@@ -2,6 +2,7 @@
 title:          Shutter Clicks
 description:    "Snapshots of my interests"
 url:            "https://www.lycarter.com"
+logo:           /assets/apple-touch-icon.png
 
 # Author
 author:
@@ -22,6 +23,7 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
