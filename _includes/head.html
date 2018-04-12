@@ -25,8 +25,11 @@
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+
+  {% if page.table-zebra %}
+    <link rel="stylesheet" href="{{ "/assets/css/table-zebra.css" | relative_url }}">
+  {% endif %}
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon-32x32.png" | relative_url }}">

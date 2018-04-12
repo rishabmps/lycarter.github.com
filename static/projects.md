@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Project Listing"
+title: "Projects"
 author: "Landon"
 permalink: /projects/
 ---

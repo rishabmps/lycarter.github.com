@@ -1,0 +1,19 @@
+---
+# Front matter for Jekyll
+---
+
+@import 'tale/variables';
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 1px solid $grey-1;
+}
+
+td {
+	padding: 8px;
+}
+
+tbody tr:nth-child(even) {
+   background-color: $grey-2;
+}
