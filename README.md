@@ -10,6 +10,8 @@ Install [Jekyll](https://jekyllrb.com/), [Ruby](https://www.ruby-lang.org/en/), 
 
 ```bundle exec jekyll serve --watch --drafts```
 
+Debugging info is found at `/about-technical/`
+
 ## Other notes
 
 For setting page-specific sharing tags: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
