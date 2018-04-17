@@ -17,6 +17,7 @@ def resizeImage(infile, suffix="_thumb", output_dir="", size=(1024,768)):
 
 
 if __name__=="__main__":
+    print("generating thumbnails")
     output_dir_name = "thumbnail"
     img_dir = os.path.join(os.getcwd(), "../assets/img")
 
@@ -24,8 +25,9 @@ if __name__=="__main__":
         os.mkdir(os.path.join(img_dir,output_dir))
 
     for file in os.listdir(img_dir):
-        if os.path.isfile(file):
+        if os.path.isfile(os.path.join(img_dir, file)):
             infile = os.path.join(img_dir,file)
+            print("resizing %s" % (infile,))
             outdir = os.path.join(img_dir,output_dir_name)
             resizeImage(infile, "_thumb_200", outdir, (200,200))
             resizeImage(infile, "_thumb_800", outdir, (800,800))
