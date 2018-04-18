@@ -3,6 +3,8 @@ layout: post
 title: "Google Codejam 2018"
 author: "Landon"
 math: true
+tags:
+- thoughts
 ---
 
 I participated in Google Code Jam for the first time last year, making it through the first two rounds to the round of 3000. I looked at the problems in the round of 3000 last year, but didn't happen to have time to actually make a good effort at solving any of them.

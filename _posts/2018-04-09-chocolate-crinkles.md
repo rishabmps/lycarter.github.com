@@ -2,6 +2,8 @@
 layout: post
 title: "Recipe: Chocolate Crinkles"
 author: "Landon"
+tags:
+- recipes
 ---
 
 I've gotten into cooking and baking this year with some additional free time, and Safetyfourth's well-stocked kitchen. My parents also got me a couple of cookbooks for Christmas. Here's a recipe for Chocolate Crinkles, modified from the Betty Crocker Cookbook:

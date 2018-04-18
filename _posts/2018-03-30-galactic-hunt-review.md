@@ -2,6 +2,8 @@
 layout: post
 title: "Galactic Puzzlehunt 2018 Recap"
 author: "Landon"
+tags:
+- thoughts
 ---
 
 Before you read, some useful links:

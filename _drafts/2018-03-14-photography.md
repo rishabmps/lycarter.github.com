@@ -2,6 +2,9 @@
 layout: post
 title: "Photography"
 author: "Landon"
+tags:
+- thoughts
+- art
 ---
 
 

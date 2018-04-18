@@ -2,6 +2,8 @@
 layout: post
 title: "Hello World"
 author: "Landon"
+tags:
+- thoughts
 ---
 
 All first ventures should start with hello world, right?<br />

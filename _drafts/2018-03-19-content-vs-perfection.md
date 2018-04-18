@@ -2,6 +2,8 @@
 layout: post
 title: "Content vs Perfection: Photo Galleries"
 author: "Landon"
+tags:
+- thoughts
 ---
 
 I started the draft on that [photography post]({{ site.baseurl }}{% post_url 2018-03-14-photography %}) on 3/8 or so. As of 3/19, I still haven't posted it. The reason, of course, was seeking perfection. I started that draft when I still used Blogger, on which I wrote only a single post before switching to Jekyll because it's more customizable. I wanted to include a mini-gallery in the photography post, and was unhappy with Blogger's options.
