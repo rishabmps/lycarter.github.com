@@ -24,7 +24,7 @@ layout: post
     {% for post in site.tags[this_word] %}{% if post.title != null %}
     <div class="tag-list">
         <span><a href="{{ post.url }}">{{ post.title }}</a></span>
-       {{% if post.date %}} <small><span>| <time datetime="{{ post.date }}">{{ post.date | date: "%B %d, %Y" }}</time></span></small> {{% endif %}}
+       {% if post.date %} <small><span>| <time datetime="{{ post.date }}">{{ post.date | date: "%B %d, %Y" }}</time></span></small> {% endif %}
     </div>
     {% endif %}{% endfor %}
   {% endunless %}{% endfor %}
