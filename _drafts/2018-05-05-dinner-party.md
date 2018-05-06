@@ -8,7 +8,7 @@ tags:
 
 For my birthday this year, rather than going out for a meal, I decided to cook a really fancy dinner for a few friends. Unfortunately, I was constrained by the size of Safetyfourth's table to just a few friends, but the meal turned out excellent. I served a cheese board with assorted cheeses and crackers prior to dinner, mushroom and pea risotto, grilled asparagus, and grilled salmon for the main course, and crêpes suzette for dessert. I also served everything on my brand-new dishes (thanks mom and dad!).
 
-I saw [this article](https://www.nytimes.com/interactive/2017/10/25/magazine/food-issue-art-of-dinner-party.html) about dinner parties a while ago, and it struck a chord. I really enjoy the calm, relaxed, yet refined atmosphere of a dinner party. It feels adult, which I guess I would characterize by doing things *intentionally*. That's actually a topic that I feel like I have enough feelings on for a whole blog post, but suffice to say that the reward for intending to do something and then following through with it is very strong. Anyway, dinner parties are one manifestation of that - an intentional act of refinement, a practicing of expertise to prepare the meal, and even a bit of cleverness required to figure out how to make everything ahead of time, but not too far ahead of time - how to keep things warm and juggle resources. It's an interesting problem to plan the food prep for a complex dinner, which is fun of its own accord.
+I saw [this article](https://www.nytimes.com/interactive/2017/10/25/magazine/food-issue-art-of-dinner-party.html) about dinner parties a while ago, and it struck a chord. I really enjoy the calm, relaxed, yet refined atmosphere of a dinner party. It feels adult, which I guess I would characterize by doing things *intentionally*. That's actually a topic that I feel like I have enough feelings on for a whole blog post, but suffice to say that the reward for intending to do something and then following through with it is very strong. Anyway, dinner parties are one manifestation of that - an intentional act of refinement, a practicing of expertise to prepare the meal, and even a bit of problem-solving ability required to figure out how to make everything ahead of time, but not too far ahead of time - how to keep things warm and juggle resources.
 
 <br>
 
@@ -21,23 +21,23 @@ So, I like dinner parties, and decided to throw one.
 ## Order of Operations
 First, I prepared invites. These started the theme of "fancy" with a custom emboss (yet another project that deserves its own blog post). They were physically printed on cardstock and hand-delivered or mailed to each of my guests.
 
-Next, I had to upgrade Safetyfourth's dinnerware situation - what Safetyfourth has is a bunch of mismatched plates of different sizes, colors, and materials. It's good enough for day-to-day use, but would be a noticeable detraction from a fancy dinner of the kind I wanted to serve. So, I looked around at dinnerware sets. I eventually settled on [Roulette Blue Band Dinnerware](https://www.crateandbarrel.com/roulette-blue-band-dinnerware/f11002) from Crate & Barrel, along with [York Mirror](https://www.crateandbarrel.com/york-5-piece-flatware-place-setting/s548036) flatware, [Otis Highball](https://www.crateandbarrel.com/otis-highball-glass/s112003) glasses, and [Oregon](https://www.crateandbarrel.com/oregon-16-oz.-white-wine-glass/s437517) white wine glasses. It makes a very handsome set, all told. It's also pretty similar in design to the set that I used growing up.
+Next, I wanted to upgrade Safetyfourth's dinnerware situation - what Safetyfourth has is a bunch of mismatched plates of different sizes, colors, and materials. It's good enough for day-to-day use, but would be a noticeable detraction from a fancy dinner of the kind I wanted to serve (not to mention, I needed dinnerware for my apartment in NYC in a couple months anyway, and Palantir is handling my move). So, I looked around at dinnerware sets. I eventually settled on [Roulette Blue Band Dinnerware](https://www.crateandbarrel.com/roulette-blue-band-dinnerware/f11002) from Crate & Barrel, along with [York Mirror](https://www.crateandbarrel.com/york-5-piece-flatware-place-setting/s548036) flatware, [Otis Highball](https://www.crateandbarrel.com/otis-highball-glass/s112003) glasses, and [Oregon](https://www.crateandbarrel.com/oregon-16-oz.-white-wine-glass/s437517) white wine glasses (mostly listing them out for my own future reference in case I need replacements). It makes a very handsome set, all told. It's also pretty similar in design to the set that I used growing up.
 
-TODO: photo of place setting
+![]({{ "/assets/img/thumbnail/2018-05-05-dinner-party-1_thumb_800.jpg" | absolute_url }} "place setting")_New dishes make a nice place setting_
 
-For the actual food prep, I started early in the morning with the dough for the brioche dinner rolls, as well as getting the salmon marinating. In the early afternoon, I finished baking the rolls before starting on the risotto, the longest dish to make, and one that required near-constant attention. I started by chopping up the mushrooms and onions before cooking for the next hour. Honestly, it wasn't my best risotto - I had to split it into two pans to try to get the volume to surface area ratio correct for the correct speed of water evaporation that would result in the right consistency for the risotto. It was pretty challenging to handle two pans at once, especially since they had different surface areas.
+For the actual food prep, I started early in the morning with the dough for the brioche dinner rolls, and also got the salmon marinating. In the early afternoon, I finished baking the rolls before starting on the risotto, the longest dish to make, and one that required near-constant attention. I started by chopping up the mushrooms and onions before cooking for the next hour. Honestly, it wasn't my best risotto - I had to split it into two pans to try to get the volume to surface area ratio correct for the correct speed of water evaporation that would result in the right consistency for the risotto. It was pretty challenging to handle two pans at once, especially since they had different surface areas.
 
 After the risotto was done, I put it in a large pot to mix in the peas and parmesan, before putting it on the back burner to keep warm until dinner. At that point, there was about 30 minutes til guests were going to arrive, so I was pretty on-schedule. I quickly prepped the asparagus and tossed it in the oven. Luckily, the asparagus is a nearly zero-prep component of the meal - preheat the oven and toss the asparagus with olive oil, salt, and pepper before baking. After the asparagus went in the oven, I set the table quickly before starting on the salmon, handling 3 pieces at a time (out of 6 total). I had two pans going - one for the bottom of the fillets, and one for searing the top of the fillets with a grill pattern and finishing the cooking. By batching them and pipelining, I was able to get total cooking time down to about 20 minutes, so I was pulling the second round of salmon off the grill right as guests were arriving. The asparagus also finished up while the salmon was going, so I turned the oven down and put the rolls back in to heat up before dinner.
 
-TODO: photo of cheese plate
+![]({{ "/assets/img/thumbnail/2018-05-05-dinner-party-2_thumb_800.jpg" | absolute_url }} "cheese board")_Fish, helping out by cutting up the cheese for the cheese plate_
 
 Guests arrived around 5:30, so as I tidied up the kitchen, we also snacked on the cheese and crackers that I'd set out. After snacking for a while and after the salmon had rested enough, dinner was served.
 
-TODO: photo of dinner
+![]({{ "/assets/img/thumbnail/2018-05-05-dinner-party-3_thumb_800.jpg" | absolute_url }} "dinner is served")_Mushroom and pea risotto, grilled asparagus, and grilled salmon, with a freshly baked brioche dinner roll_
 
 After a delicious and relaxed dinner, I prepped the crêpe batter for crêpes suzette before diving into the orange glaze. I managed to flambé very successfully this time! My crêpe batter wound up a bit lumpy - I might be adding the ingredients in the wrong order, or the cold milk might be causing the butter to chill and harden, so I still have a bit of room for improvement there. You couldn't really tell in the final product though, which turned out beautiful, with a quenelle of vanilla ice cream on top.
 
-TODO: photo of flambe
+![]({{ "/assets/img/thumbnail/2018-05-05-dinner-party-4_thumb_800.jpg" | absolute_url }} "flambé!")_The flambé looked even better in person, but having the lights off was pretty crucial_
 
 Now, on to the specific recipes!
 
@@ -68,8 +68,7 @@ Now, on to the specific recipes!
 
 This recipe I got from [Alex French Guy on youtube](https://www.youtube.com/watch?v=hY19NK7qBCU), and was inspired to try it after watching my roommate bake sourdough bread on a weekly basis. It was surprisingly difficult to form the dinner roll shape, since the dough was very sticky. I find that the loaf produces about 10 solid slices of bread, and I tend to enjoy them best when toasted lightly. The dinner rolls are best fresh - I overcooked them a bit when keeping them warm, which made them a bit drier and a bit harder, instead of soft and fluffy as they were fresh out of the oven. They don't really need additional butter.
 
-TODO: image of loaf
-TODO: image of dinner rolls
+![]({{ "/assets/img/thumbnail/2018-05-05-dinner-party-5_thumb_800.jpg" | absolute_url }} "dinner rolls")_The egg wash helps make a nice glossy top_
 
 # Mushroom and Pea Risotto
 (makes about 4 servings)
@@ -97,7 +96,7 @@ TODO: image of dinner rolls
 
 This recipe can be tricky to get the perfect texture out of - sometimes I'm very successful, sometimes I'm less successful. As I mentioned though, even if it's wrong, it's not too far off, and is certainly still a tasty meal. Instead of mushrooms, shrimp can be stirred in at the end for shrimp and pea risotto. This was adapted from the Betty Crocker Cookbook.
 
-TODO: image of risotto in-process
+![]({{ "/assets/img/thumbnail/2018-05-05-dinner-party-6_thumb_800.jpg" | absolute_url }} "risotto")_I usually use the yellow wok in the foreground, but this quantity of risotto didn't fit. The blue 12" skillet in the background had a higher surface area to volume ratio, which made things difficult_
 
 # Grilled Asparagus
 (Makes about 4 small servings)
@@ -118,7 +117,7 @@ TODO: image of risotto in-process
 
 This was a recipe my mom used to make every now and then, and is very similar to [this recipe on allrecipes](https://www.allrecipes.com/recipe/214931/oven-roasted-asparagus/). It's a super easy way to prepare asparagus. The only annoying thing is that the oven is then too hot to keep the rest of the dishes warm right before dinner. I can see why people like having 2 ovens now - one to cook in, the other to just keep things warm.
 
-TODO: image of asparagus in-process
+![]({{ "/assets/img/thumbnail/2018-05-05-dinner-party-7_thumb_800.jpg" | absolute_url }} "asparagus")_This is a super easy, quick, and tasty way to prep asparagus_
 
 # Grilled Salmon
 (Makes about 4 servings)
@@ -144,7 +143,7 @@ TODO: image of asparagus in-process
 
 I used to make a salmon recipe from my mom, which was just salmon, slathered with italian dressing and broiled for about a half hour, which was very tasty. However, I needed the oven for other things and wanted to branch out a bit, so I found [this recipe online](https://www.allrecipes.com/recipe/12720/grilled-salmon-i/) from allrecipes. In principle, the flavors are very similar to the italian dressing recipe I made, but the method of prep encourages a more intense char and crisps the salmon more. The brown sugar helps add some nice caramelization and color.
 
-TODO: image of salmon in-process
+![]({{ "/assets/img/thumbnail/2018-05-05-dinner-party-8_thumb_800.jpg" | absolute_url }} "salmon")_The grill marks really enhance the presentation_
 
 # Crêpes Suzette
 (makes about 2 servings)
@@ -179,4 +178,6 @@ Glaze:
 
 I found this recipe from [Jun's Kitchen](https://www.youtube.com/watch?v=bF9zOykErJ4), though he shows a slightly fancier version of the recipe. I had a lot of trouble getting the flambé to work the first couple of times I tried the recipe - I accidentally added the orange juice first one time, and tried to flambé on the plate the second time, which also failed. I also managed to get it to mostly work once, but the flame isn't very bright, so it's not very pretty when the lights are on. For the dinner party though, it went perfectly. The quenelle of ice cream really finishes the presentation.
 
-TODO: image of crepes
+![]({{ "/assets/img/thumbnail/2018-05-05-dinner-party-9_thumb_800.jpg" | absolute_url }} "crêpes suzette")_Crêpes suzette is a really pretty dessert, and can be prepared live to show off a bit :D_
+
+Overall, the dinner was a huge success! Thanks for reading :)
