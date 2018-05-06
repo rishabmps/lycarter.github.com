@@ -4,6 +4,7 @@ title: "Birthday Dinner 2018"
 author: "Landon"
 tags:
 - recipes
+image: "/assets/img/thumbnail/2018-05-05-dinner-party-4_thumb_800.jpg"
 ---
 
 For my birthday this year, rather than going out for a meal, I decided to cook a really fancy dinner for a few friends. Unfortunately, I was constrained by the size of Safetyfourth's table to just a few friends, but the meal turned out excellent. I served a cheese board with assorted cheeses and crackers prior to dinner, mushroom and pea risotto, grilled asparagus, and grilled salmon for the main course, and crêpes suzette for dessert. I also served everything on my brand-new dishes (thanks mom and dad!).
