@@ -4,6 +4,7 @@ title: "Hello World"
 author: "Landon"
 tags:
 - thoughts
+- meta
 ---
 
 All first ventures should start with hello world, right?<br />
