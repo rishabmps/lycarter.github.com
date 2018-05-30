@@ -3,15 +3,24 @@
 from PIL import Image
 import os, sys
 
+converter = {".jpg": ".jpg", ".jpeg": ".jpg", ".png": ".png"}
+
 def resizeImage(infile, suffix="_thumb", output_dir="", size=(1024,768)):
     filename = os.path.splitext(os.path.basename(infile))[0]
-    outfile = os.path.join(output_dir, filename)+suffix+".jpg"
+    extension = os.path.splitext(infile)[1].lower()
+    if extension == '':
+        return
+    try:
+        outfile = os.path.join(output_dir, filename)+suffix+converter[extension]
+    except Exception as e:
+        print filename
+        raise e
 
-    if infile != outfile:
+    if infile != outfile and not os.path.isfile(outfile):
         try :
             im = Image.open(infile)
             im.thumbnail(size, Image.ANTIALIAS)
-            im.save(outfile,"JPEG")
+            im.save(outfile)
         except IOError:
             print("cannot reduce image for %s" % infile)
 
