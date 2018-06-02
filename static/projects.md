@@ -7,7 +7,8 @@ permalink: /projects/
 
 # Research
 
-- [Computational Design for 3D Printable Robotics]({{ "/assets/pdf/3DPrintableRobotics.pdf" }}) - a SuperUROP project to close the loop on robot design, allowing robots to be designed automatically for 3D printing. I worked on this during Fall '16 and Spring '17, and focused my work on the multi-path-planning algorithm for Fall '17 and Spring '18.
+- [Multi-Path Planning for Hydraulic Fluid Routing]({{ "/assets/pdf/MIT_Thesis.pdf" }}) - My M. Eng thesis, an extension on the research below. This work focused on the fluid-routing algorithm, and performance optimizations I worked on during my M. Eng for Fall '17 and Spring '18.
+- [Computational Design for 3D Printable Robotics]({{ "/assets/pdf/3DPrintableRobotics.pdf" }}) - a SuperUROP project to close the loop on robot design, allowing robots to be designed automatically for 3D printing. I worked on this during Fall '16 and Spring '17.
 - [Cation Exchange in MOF-5]({{ "/assets/pdf/LandonCarterMOF5.pdf" }}) - a UROP project from Spring '14.
 - [Brownie Pan Design]({{ "/assets/pdf/MCM.pdf" }}) - a mathematical modeling project for MCM '13. We won a Meritorious ranking (~top 20%).
 - [Elk Population Modeling]({{ "/assets/pdf/HiMCM.pdf" }}) - a mathematical modeling project for HiMCM '12. We won a Finalist ranking (~top 10%).
