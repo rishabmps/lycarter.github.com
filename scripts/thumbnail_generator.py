@@ -3,7 +3,7 @@
 from PIL import Image
 import os, sys
 
-converter = {".jpg": ".jpg", ".jpeg": ".jpg", ".png": ".png"}
+converter = {".gif": ".gif", ".jpg": ".jpg", ".jpeg": ".jpg", ".png": ".png"}
 
 def resizeImage(infile, suffix="_thumb", output_dir="", size=(1024,768)):
     filename = os.path.splitext(os.path.basename(infile))[0]
