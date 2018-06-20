@@ -4,7 +4,7 @@ title: "Seattle is Saturated"
 author: "Landon"
 tags:
 - travel
-image: "/assets/img/thumbnail/..."
+image: "/assets/img/thumbnail/2018-06-18-seattle-trip-4_thumb_800.jpg"
 ---
 
 After graduation, I wanted to go travel a bit, and especially visit some friends on the west coast that I haven't seen for a while, and probably won't get to see for a little while. Hunter has been working in Seattle and is moving back to Boston soon, so it was also a good opportunity to visit her before she moved.
