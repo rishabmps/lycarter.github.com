@@ -19,6 +19,10 @@
     </nav>
 
     <main>
+      {% if page.gallery %}
+        {% include pswp.html %}
+      {% endif %}
+
       {{ content }}
     </main>
 

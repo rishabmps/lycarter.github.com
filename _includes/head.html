@@ -31,6 +31,13 @@
     <link rel="stylesheet" href="{{ "/assets/css/table-zebra.css" | relative_url }}">
   {% endif %}
 
+  {% if page.gallery %}
+    <link rel="stylesheet" href="{{ "/assets/css/photoswipe.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/photoswipe-default-skin/default-skin.css" | relative_url }}">
+    <script src="{{ "/assets/js/photoswipe.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/photoswipe-ui-default.min.js" | relative_url }}"></script>
+  {% endif %}
+
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon-32x32.png" | relative_url }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon-16x16.png" | relative_url }}">
