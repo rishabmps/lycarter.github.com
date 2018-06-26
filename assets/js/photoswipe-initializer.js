@@ -1,3 +1,6 @@
+---
+---
+
 var initPhotoSwipeFromDOM = function(gallerySelector) {
 
     // parse slide data (url, title, size ...) from DOM elements 
@@ -200,6 +203,51 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
         openPhotoSwipe( hashData.pid ,  galleryElements[ hashData.gid - 1 ], true, true );
     }
 };
+
+var preprocessPhotoSwipeFromDOM = function(gallerySelector) {
+	var baseFileName = location.href.split("/").slice(-2);
+	baseFileName = baseFileName[0] + '-' + baseFileName[1];
+
+	var parseImages = function(el) {
+        var thumbElements = el.childNodes,
+            numNodes = thumbElements.length,
+            items = [],
+            figureEl;
+
+        for(var i = 0; i < numNodes; i++) {
+
+            figureEl = thumbElements[i]; // <figure> element
+            // include only element nodes 
+            if(figureEl.nodeType !== 1) {
+                continue;
+            }
+
+            large = baseFileName + "-" + figureEl.getAttribute("name") + ".jpg";
+            thumb = "thumbnail/" + baseFileName + "-" + figureEl.getAttribute("name") + "_thumb_800.jpg";
+
+            var a = document.createElement("a");
+            a.setAttribute("href", "{{ site.baseurl }}/assets/img/" + large);
+            a.setAttribute("data-size", "6000x4000"); //TODO: data size from filename (?))
+            var innerThumbnail = document.createElement("img");
+            innerThumbnail.setAttribute("src", "{{ site.baseurl }}/assets/img/" + thumb);
+            innerThumbnail.setAttribute("alt", figureEl.getAttribute("alt"));
+            a.appendChild(innerThumbnail);
+
+            var caption = document.createElement("figcaption");
+            caption.innerHTML = figureEl.getAttribute("caption");
+            figureEl.appendChild(a);
+            figureEl.appendChild(caption);
+
+        }
+        return null;
+	}
+	var galleryElements = document.querySelectorAll( gallerySelector );
+    for(var i = 0, l = galleryElements.length; i < l; i++) {
+        parseImages(galleryElements[i]);
+    }
+}
+
+preprocessPhotoSwipeFromDOM('.my-gallery');
 
 // execute above function
 initPhotoSwipeFromDOM('.my-gallery');

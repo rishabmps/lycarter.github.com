@@ -7,68 +7,14 @@ tags:
 gallery: true
 ---
 
-<h2>First gallery:</h2>
+## first gallery
 
-  <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="https://farm3.staticflickr.com/2567/5697107145_a4c2eaa0cd_o.jpg" itemprop="contentUrl" data-size="1024x1024">
-          <img src="https://farm3.staticflickr.com/2567/5697107145_3c27ff3cd1_m.jpg" itemprop="thumbnail" alt="Image description" />
-      </a>
-                                          <figcaption itemprop="caption description">Image caption  1</figcaption>
-                                          
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" itemprop="contentUrl" data-size="964x1024">
-          <img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_m.jpg" itemprop="thumbnail" alt="Image description" />
-      </a>
-      <figcaption itemprop="caption description">Image caption 2</figcaption>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg" itemprop="contentUrl" data-size="1024x683">
-          <img src="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_m.jpg" itemprop="thumbnail" alt="Image description" />
-      </a>
-      <figcaption itemprop="caption description">Image caption 3</figcaption>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_b.jpg" itemprop="contentUrl" data-size="1024x768">
-          <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" itemprop="thumbnail" alt="Image description" />
-      </a>
-      <figcaption itemprop="caption description">Image caption 4</figcaption>
-    </figure>
-
-
+  <div class="my-gallery">
+    <figure name="1" alt="Image description" caption="image 1"></figure>
+    <figure name="2" alt="Image description" caption="image 2"></figure>
+    <figure name="3" alt="Image description" caption="image 3"></figure>
+    <figure name="4" alt="Image description" caption="image 4"></figure>
   </div>
 
-<h2>Second gallery:</h2>
 
-  <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-  
-
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" itemprop="contentUrl" data-size="964x1024">
-          <img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_m.jpg" itemprop="thumbnail" alt="Image description" />
-      </a>
-      <figcaption itemprop="caption description">Image caption 2.1</figcaption>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg" itemprop="contentUrl" data-size="1024x683">
-          <img src="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_m.jpg" itemprop="thumbnail" alt="Image description" />
-      </a>
-      <figcaption itemprop="caption description">Image caption 2.2</figcaption>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_b.jpg" itemprop="contentUrl" data-size="1024x768">
-          <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" itemprop="thumbnail" alt="Image description" />
-      </a>
-      <figcaption itemprop="caption description">Image caption 2.3</figcaption>
-    </figure>
-
-
-  </div>
+![]({{ "/assets/img/thumbnail/2018-06-24-photoswipe-1_thumb_800.jpg" | absolute_url }} "mopop was beautiful from every angle")_MoPOP, angle 1._

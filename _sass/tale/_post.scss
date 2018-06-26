@@ -41,12 +41,13 @@
     margin: 0 auto 0.5rem;
   }
 
-  img + em, figure + em, iframe + em{
+  img + em, figure + em, iframe + em, a + figcaption{
     color: $default-tint;
     display: block;
     font-family: $sans-serif;
     font-size: 0.9rem;
     font-style: normal;
     text-align: center;
+    margin-bottom: 5px;
   }
 }
