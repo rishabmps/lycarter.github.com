@@ -206,7 +206,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
 var preprocessPhotoSwipeFromDOM = function(gallerySelector) {
 	var baseFileName = location.href.split("/").slice(-2);
-	baseFileName = baseFileName[0] + '-' + baseFileName[1];
+	baseFileName = baseFileName[0] + '-' + baseFileName[1].split("#")[0];
 
 	var parseImages = function(el) {
         var thumbElements = el.childNodes,
@@ -222,16 +222,21 @@ var preprocessPhotoSwipeFromDOM = function(gallerySelector) {
                 continue;
             }
 
-            large = baseFileName + "-" + figureEl.getAttribute("name") + ".jpg";
-            thumb = "thumbnail/" + baseFileName + "-" + figureEl.getAttribute("name") + "_thumb_800.jpg";
+            imageName = figureEl.getAttribute("name");
+
+            large = baseFileName + "-" + imageName + ".jpg";
+            thumb = "thumbnail/" + baseFileName + "-" + imageName + "_thumb_800.jpg";
 
             var a = document.createElement("a");
             a.setAttribute("href", "{{ site.baseurl }}/assets/img/" + large);
+
             a.setAttribute("data-size", "6000x4000"); //TODO: data size from filename (?))
+            
             var innerThumbnail = document.createElement("img");
             innerThumbnail.setAttribute("src", "{{ site.baseurl }}/assets/img/" + thumb);
             innerThumbnail.setAttribute("alt", figureEl.getAttribute("alt"));
             a.appendChild(innerThumbnail);
+
 
             var caption = document.createElement("figcaption");
             caption.innerHTML = figureEl.getAttribute("caption");
@@ -245,6 +250,7 @@ var preprocessPhotoSwipeFromDOM = function(gallerySelector) {
     for(var i = 0, l = galleryElements.length; i < l; i++) {
         parseImages(galleryElements[i]);
     }
+    // initPhotoSwipeFromDOM(gallerySelector);
 }
 
 preprocessPhotoSwipeFromDOM('.my-gallery');
