@@ -15,6 +15,15 @@ def addSize(filename, im):
         sizes[post] = {}
     sizes[post][filename] = "%sx%s" % (width, height)
 
+def conformImage(infile):
+    filename = os.path.splitext(os.path.basename(infile))[0]
+    extension = os.path.splitext(infile)[1].lower()
+    if extension == '':
+        return
+    elif extension != converter[extension]:
+        newname = infile.replace(extension, converter[extension])
+        os.rename(infile, newname)
+
 def resizeImage(infile, suffix, output_dir, size):
     filename = os.path.splitext(os.path.basename(infile))[0]
     extension = os.path.splitext(infile)[1].lower()
@@ -45,6 +54,11 @@ if __name__=="__main__":
 
     if not os.path.exists(os.path.join(img_dir,output_dir_name)):
         os.mkdir(os.path.join(img_dir,output_dir))
+
+    for file in os.listdir(img_dir):
+        if os.path.isfile(os.path.join(img_dir, file)):
+            infile = os.path.join(img_dir,file)
+            conformImage(infile)
 
     for file in os.listdir(img_dir):
         if os.path.isfile(os.path.join(img_dir, file)):

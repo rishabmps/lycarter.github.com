@@ -225,13 +225,20 @@ var preprocessPhotoSwipeFromDOM = function(gallerySelector) {
             imageName = figureEl.getAttribute("name");
             if (imageName.indexOf("-") == -1) {
             	imageName = baseFileName + "-" + imageName;
+                large = imageName + ".jpg";
+                thumb = "thumbnail/" + imageName + "_thumb_800.jpg";
             	imageBase = baseFileName;
             } else {
+                extension = imageName.substring(imageName.lastIndexOf("."));
+                if (extension == "") {
+                    extension = ".jpg";
+                } else {
+                    imageName = imageName.substring(0, imageName.lastIndexOf("."));
+                }
+                large = imageName + extension;
+                thumb = "thumbnail/" + imageName + "_thumb_800" + extension;
             	imageBase = imageName.substring(0, imageName.lastIndexOf("-"));
             }
-
-            large = imageName + ".jpg";
-            thumb = "thumbnail/" + imageName + "_thumb_800.jpg";
 
             var a = document.createElement("a");
             a.setAttribute("href", "{{ site.baseurl }}/assets/img/" + large);
