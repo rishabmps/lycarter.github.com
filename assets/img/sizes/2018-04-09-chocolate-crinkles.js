@@ -1,0 +1,1 @@
+if (typeof SIZES == 'undefined') {var SIZES = {}}; SIZES['2018-04-09-chocolate-crinkles'] ={"2018-04-09-chocolate-crinkles-2": "4200x2593", "2018-04-09-chocolate-crinkles-1": "3876x2907"};

@@ -223,15 +223,21 @@ var preprocessPhotoSwipeFromDOM = function(gallerySelector) {
             }
 
             imageName = figureEl.getAttribute("name");
+            if (imageName.indexOf("-") == -1) {
+            	imageName = baseFileName + "-" + imageName;
+            	imageBase = baseFileName;
+            } else {
+            	imageBase = imageName.substring(0, imageName.lastIndexOf("-"));
+            }
 
-            large = baseFileName + "-" + imageName + ".jpg";
-            thumb = "thumbnail/" + baseFileName + "-" + imageName + "_thumb_800.jpg";
+            large = imageName + ".jpg";
+            thumb = "thumbnail/" + imageName + "_thumb_800.jpg";
 
             var a = document.createElement("a");
             a.setAttribute("href", "{{ site.baseurl }}/assets/img/" + large);
 
-            a.setAttribute("data-size", "6000x4000"); //TODO: data size from filename (?))
-            
+            a.setAttribute("data-size", SIZES[imageBase][imageName]);
+
             var innerThumbnail = document.createElement("img");
             innerThumbnail.setAttribute("src", "{{ site.baseurl }}/assets/img/" + thumb);
             innerThumbnail.setAttribute("alt", figureEl.getAttribute("alt"));
@@ -250,7 +256,6 @@ var preprocessPhotoSwipeFromDOM = function(gallerySelector) {
     for(var i = 0, l = galleryElements.length; i < l; i++) {
         parseImages(galleryElements[i]);
     }
-    // initPhotoSwipeFromDOM(gallerySelector);
 }
 
 preprocessPhotoSwipeFromDOM('.my-gallery');

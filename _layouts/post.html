@@ -42,5 +42,9 @@ layout: default
 {% endif %}
 
 {% if page.gallery %}
+  {% for src in page.other_image_sources %}
+    <script src="{{ "/assets/img/sizes/" | relative_url }}{{ src }}.js"></script>
+  {% endfor %}
+  <script src = "{{ "/assets/img/sizes/" | relative_url }}{{ page.id | remove_first: '/' | replace: '/', '-' }}.js"></script>
   <script src="{{ "/assets/js/photoswipe-initializer.js" | relative_url }}"></script>
 {% endif %}
