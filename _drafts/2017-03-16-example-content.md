@@ -96,15 +96,15 @@ _This is an image with a caption_
 # Image Galleries
 
 {% highlight html %}
-<div class="my-gallery">
+<div class="gallery">
   <figure name="1" alt="Image description" caption="caption 1"></figure>
   <figure name="2018-04-09-chocolate-crinkles-1" alt="Image description" caption="caption 2"></figure>
 </div>
 {% endhighlight %}
 
-<div class="my-gallery">
-  <figure name="1" alt="Image description" caption="image 1"></figure>
-  <figure name="2018-04-09-chocolate-crinkles-1" alt="Image description" caption="image 1"></figure>
+<div class="gallery">
+  <figure name="1" alt="Image description" caption="caption 1"></figure>
+  <figure name="2018-04-09-chocolate-crinkles-1" alt="Image description" caption="caption 2"></figure>
 </div>
 
 # Code and Syntax Highlighting

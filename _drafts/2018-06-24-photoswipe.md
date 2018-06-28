@@ -9,7 +9,7 @@ gallery: true
 
 ## first gallery
 
-  <div class="my-gallery">
+  <div class="gallery">
     <figure name="1" alt="Image description" caption="image 1"></figure>
     <figure name="2" alt="Image description" caption="image 2"></figure>
     <figure name="3" alt="Image description" caption="image 3"></figure>

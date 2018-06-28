@@ -258,7 +258,7 @@ var preprocessPhotoSwipeFromDOM = function(gallerySelector) {
     }
 }
 
-preprocessPhotoSwipeFromDOM('.my-gallery');
+preprocessPhotoSwipeFromDOM('.gallery');
 
 // execute above function
-initPhotoSwipeFromDOM('.my-gallery');
+initPhotoSwipeFromDOM('.gallery');
